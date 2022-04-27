@@ -3,12 +3,13 @@ import "antd/dist/antd.css"
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import * as ReactDOMClient from "react-dom/client"
 import {createRoot} from "react-dom/client"
 import React from 'react';
 
 const rootElement = document.getElementById("root")
 
-const root  = createRoot(rootElement as HTMLElement)
+const root  = ReactDOMClient.createRoot(rootElement as HTMLElement)
 
 root.render(
   <React.StrictMode>
@@ -20,3 +21,5 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+

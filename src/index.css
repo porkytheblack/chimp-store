@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
 html,
 body {
@@ -31,15 +31,15 @@ a {
 }
 
 .inter_regular {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
 .inter_medium {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
 }
 .inter_semi_bold {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
 }
 .fnt_16 {
@@ -70,6 +70,16 @@ a {
 .my_bg_blue{
   background-color: #4d91fb;
 }
+.b-icon{
+  width: 24px !important;
+  height: 24px !important;
+  color: #fff;
+}
+.big-icon{
+  width: 28px !important;
+  height: 28px !important;
+  color: #fff;
+}
 .n-icon{
   width: 24px !important;
   height: 24px !important;
@@ -88,4 +98,39 @@ a {
   width: 32px;
   height: 32px;
   color:  #585b62;
+}
+.chimp{
+  width: 67px;
+  height: 60px;
+}
+.chimp-logo{
+  height: 60;
+  width: auto;
+}
+
+.next,
+.prev {
+  top: calc(50% - 20px);
+  position: absolute;
+  background: white;
+  border-radius: 30px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  z-index: 2;
+}
+
+.next {
+  right: 10px;
+}
+
+.prev {
+  left: 10px;
+  transform: scale(-1);
 }
