@@ -14,6 +14,7 @@ import SellerPage from './SubPages/SellerPage'
 import ShoppingCart from './SubPages/ShoppingCart'
 import SignIn from './SubPages/SignIn'
 import SignUp from './SubPages/SignUp'
+import ViewDesign from './SubPages/ViewDesign'
 
 
 function Home() {
@@ -30,6 +31,7 @@ function Home() {
           <Route path="/seller" element={<SellerPage/>}/>
           <Route path="/register" element={<SignUp/>}/>       
           <Route path="/login" element={<SignIn/>}/>  
+          <Route path="/view-design" element={<ViewDesign/>}/>
         </Routes>
     </Container>
   )

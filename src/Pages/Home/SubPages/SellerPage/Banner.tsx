@@ -1,7 +1,7 @@
 import { Avatar } from 'antd'
 import React from 'react'
 import styled from 'styled-components'
-import back from "../../../../assets/Backgrounds/sellerbackground.png"
+import back from "../../../../assets/Backgrounds/stay_weird.png"
 
 function Banner() {
   return (

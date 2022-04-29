@@ -3,6 +3,7 @@ import { Tabs } from 'antd'
 import React from 'react'
 import styled from 'styled-components'
 import Button1 from '../../../../Components/Buttons/Button1'
+import ExploreDesigns from '../../../../Components/Containers/ExploreDesigns'
 import MyText from '../../../../Components/Text/MyText'
 import Banner from './Banner'
 import SellerProducts from './SellerProducts'
@@ -46,7 +47,7 @@ function SellerPage() {
                     Explore Designs
                 </MyText>
            } key="2" >
-               
+               <ExploreDesigns/>
                </CustomTabPane>
        </CustomTabs>
     </Container>
